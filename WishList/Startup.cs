@@ -28,6 +28,11 @@ namespace WishList
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
+            app.UseRouting();
 
            app.UseEndpoints( endpoint =>
            {
