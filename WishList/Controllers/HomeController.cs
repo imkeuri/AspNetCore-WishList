@@ -6,12 +6,12 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
-            return View("index");
+            return View("Index");
         }
 
         public IActionResult Error()
         {
-            return View("error");
+            return View("Error");
         }
 
     }
